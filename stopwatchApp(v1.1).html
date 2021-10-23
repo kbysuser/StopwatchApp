@@ -90,7 +90,7 @@
         tmSecH = ("000" + parseInt(tmSec / 3600)).slice(-2)
         tmSecM = ("000" + parseInt(tmSec / 60) % 60).slice(-2)
         tmSecS = ("000" + parseInt(tmSec) % 60).slice(-2)
-        tmStr = tmSecH + ":" + tmSecM + ":" + tmSecS + ""
+        tmStr = tmSecH + "h" + tmSecM + "m" + tmSecS + "s"
         console.log("tmSec is " + tmSec)
         return tmStr
     }
